@@ -79,6 +79,10 @@ body {
   height: 200px;
 }
 
+.youtube iframe {
+  width: 100%;
+}
+
 /* .begin {
   background-image: url('/src/img/begin/begin-background.png');
   background-size: 100%;

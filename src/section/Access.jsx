@@ -7,7 +7,7 @@ import React from 'react';
 
 const Access = () => {
     return (
-        <div className='relative access w-full h-[100vh] mb-0 lg:mb-[100px] md:mb-[100px]'>
+        <div className='relative access w-full h-[50vh] lg:h-[100vh] md:h-[100vh] sm:h-[50vh] mb-0 lg:mb-[100px] md:mb-[100px]'>
             <img src={AtmosphereLeft} className='absolute w-[30%] bottom-0 left-[-2%]' alt="" />
             <img src={Background} className='absolute top-[40%] opacity-[0.4]' alt="" />
             <div className='access-light-center'></div>
