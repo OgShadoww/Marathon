@@ -4,9 +4,9 @@
 
 @font-face {
   font-family: 'Steppe';
-  src: url("/public/fonts/Steppe/OpenType-PS/Steppe.otf");
+  src: url("/src/fonts/Steppe/OpenType-PS/Steppe.otf");
   /* IE9 Compat Modes */
-  src: url("/public/fonts/Steppe/OpenType-TT/Steppe.ttf") format("embedded-opentype"), url("/public/fonts/Steppe.woff") format("woff"), url("/public/fonts/Steppe.ttf") format("truetype");
+  src: url("/src/fonts/Steppe/OpenType-TT/Steppe.ttf") format("embedded-opentype"), url("/src/fonts/Steppe.woff") format("woff"), url("/src/fonts/Steppe.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-style: normal;
   font-weight: normal;
