@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/marathon/static/css/main.902e579e.css",
-    "main.js": "/marathon/static/js/main.429a1bf4.js",
+    "main.js": "/marathon/static/js/main.b715bd7b.js",
     "static/media/begin.png": "/marathon/static/media/begin.501eaa69f66131bb925f.png",
     "static/media/begin-bottom.png": "/marathon/static/media/begin-bottom.23674065098981ebbcc7.png",
     "static/media/COSMOS.png": "/marathon/static/media/COSMOS.03495211eb1c1a546cbc.png",
+    "static/media/top-schedule.png": "/marathon/static/media/top-schedule.90ca2b50a473d05d6f2d.png",
     "static/media/background-access.png": "/marathon/static/media/background-access.921eab4a973bcde125ad.png",
     "static/media/atmosphere-livitate3.png": "/marathon/static/media/atmosphere-livitate3.b6e70fa09bcaf603212b.png",
     "static/media/bottom-schedule.png": "/marathon/static/media/bottom-schedule.30b3275c4ebee0101895.png",
     "static/media/atmosphere-livitate1.png": "/marathon/static/media/atmosphere-livitate1.d990685d49b8bfc99bf7.png",
     "static/media/atmosphere-livitate2.png": "/marathon/static/media/atmosphere-livitate2.d990685d49b8bfc99bf7.png",
-    "static/media/top-schedule.png": "/marathon/static/media/top-schedule.fbf0f15589b8c15b9e2e.png",
     "static/media/Steppe.ttf": "/marathon/static/media/Steppe.e711073ed8756c11e982.ttf",
     "static/media/Steppe.woff": "/marathon/static/media/Steppe.b2e88961eafc70b673c2.woff",
     "static/media/Steppe.otf": "/marathon/static/media/Steppe.f79c073548c1a38c1dca.otf",
     "index.html": "/marathon/index.html",
     "main.902e579e.css.map": "/marathon/static/css/main.902e579e.css.map",
-    "main.429a1bf4.js.map": "/marathon/static/js/main.429a1bf4.js.map"
+    "main.b715bd7b.js.map": "/marathon/static/js/main.b715bd7b.js.map"
   },
   "entrypoints": [
     "static/css/main.902e579e.css",
-    "static/js/main.429a1bf4.js"
+    "static/js/main.b715bd7b.js"
   ]
 }
