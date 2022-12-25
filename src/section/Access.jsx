@@ -20,7 +20,7 @@ const Access = () => {
             </div>
             <div className='flex flex-col justify-start items-start gap-20px px-[50px]'>
                 <h1 className='text-[#DAD0FF] font-bold text-[64px]'>ДОСТУП</h1>
-                <p className='text-[#BAB3D2] w-[40%] text-left'>
+                <p className='text-[#BAB3D2] w-[80%] lg:w-[40%] md:w-[60%] sm:w-[70%] text-left'>
                     На даній сторінці ви можете переглядати всю інформацію яку ми проходимо у вигляді відео-уроків, стрімів та методичок. Доступ до даних уроків завжди з вами до закінчення марафону
                 </p>
             </div>
