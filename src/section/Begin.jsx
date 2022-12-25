@@ -6,15 +6,13 @@ import Img from '../img/begin/begin.png'
 
 const Begin = () => {
     return (
-        <div className='relative flex justify-between items-center begin h-[100vh] w-full px-[50px]'>
+        <div className='relative flex flex-col lg:flex-row md:flex-row sm:flex-row justify-center items-center gap-[50px] begin h-[80vh] w-full px-[30px] '>
             <div className='header-light'></div>
             <img src={TopSchedule} className='absolute top-0 right-0 w-[60%] z-0' alt="" />
-            <div>
-                <img src={Img} className='w-[90%] z-10' alt="" />
-            </div>
-            <div className='flex flex-col justify-start'>
+            <img src={Img} className='w-[30%] lg:w-[30%] md:w-[40%] sm:w-[40%] z-10' alt="" />
+            <div className='flex flex-col justify-center items-center lg:items-start md:items-start sm:items-center lg:justify-start md:justify-start'>
                 <img src={Text} className='w-[95%] mb-[20px]' alt="" />
-                <p className='text-left max-w-[700px] mb-[30px]'>
+                <p className='text-center lg:text-left md:text-left sm:text-[center] max-w-[700px] mb-[30px]'>
                     Cosmos - криптовалютний марафон націлений на загальний розвиток українського ком’юніті в сфері криптовалют. В даному марафоні ми будемо вивчати основи торгівлі на ф’ючерсах. В основі аналізу ринку в нас лежить концепція Smart Money
                 </p>
                 <button className='uppercase text-[#B7DDFF] bg-gradient-to-b from-[#3387D0] to-[#62A4DE] w-[300px] px-[20px] py-[20px] rounded-[10px]'>
