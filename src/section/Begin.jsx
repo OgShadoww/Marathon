@@ -11,11 +11,11 @@ const Begin = () => {
             <img src={TopSchedule} className='absolute top-0 right-0 w-[60%] z-0' alt="" />
             <img src={Img} className='w-[30%] lg:w-[30%] md:w-[40%] sm:w-[40%] z-10' alt="" />
             <div className='flex flex-col justify-center items-center lg:items-start md:items-start sm:items-center lg:justify-start md:justify-start'>
-                <img src={Text} className='w-[95%] mb-[20px]' alt="" />
+                <img src={Text} className='w-[70%] mb-[20px]' alt="" />
                 <p className='text-center lg:text-left md:text-left sm:text-[center] max-w-[700px] mb-[30px]'>
                     Cosmos - криптовалютний марафон націлений на загальний розвиток українського ком’юніті в сфері криптовалют. В даному марафоні ми будемо вивчати основи торгівлі на ф’ючерсах. В основі аналізу ринку в нас лежить концепція Smart Money
                 </p>
-                <button className='uppercase text-[#B7DDFF] bg-gradient-to-b from-[#3387D0] to-[#62A4DE] w-[300px] px-[20px] py-[20px] rounded-[10px]'>
+                <button className='uppercase z-10 text-[#B7DDFF] bg-gradient-to-b from-[#3387D0] to-[#62A4DE] w-[300px] px-[20px] py-[20px] rounded-[10px]'>
                     НАВЧАТИСЬ БЕЗКОШТОВНО
                 </button>
             </div>
