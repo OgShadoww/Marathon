@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Steppe';
+  src: url("/public/fonts/Steppe/OpenType-PS/Steppe.otf");
+  /* IE9 Compat Modes */
+  src: url("/public/fonts/Steppe/OpenType-TT/Steppe.ttf") format("embedded-opentype"), url("/public/fonts/Steppe.woff") format("woff"), url("/public/fonts/Steppe.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Steppe';
+}
+
+.App {
+  text-align: center;
+  background: #080615;
+  color: #BAB3D2;
+  overflow: hidden;
+  height: 1000vh;
+}
+
+/* light */
+
+.header-light {
+  background: #348ADF;
+  filter: blur(350px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 300px;
+}
+
+.begin-light {
+  background: #348ADF;
+  filter: blur(250px);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.access-light-center {
+  background: #348ADF;
+  filter: blur(300px);
+  width: 300px; 
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80%;
+}
+.access-light-left {
+  background: #348ADF;
+  filter: blur(300px);
+  width: 200px; 
+  height: 200px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.universe-light {
+  background: #348ADF;
+  filter: blur(350px);
+  width: 200px;
+  height: 200px;
+}
+
+/* .begin {
+  background-image: url('/src/img/begin/begin-background.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+} */
+
