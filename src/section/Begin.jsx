@@ -8,9 +8,9 @@ const Begin = () => {
     return (
         <div className='relative flex justify-between items-center begin h-[100vh] w-full px-[50px]'>
             <div className='header-light'></div>
-            <img src={TopSchedule} className='absolute top-0 right-0 w-[60%]' alt="" />
+            <img src={TopSchedule} className='absolute top-0 right-0 w-[60%] z-0' alt="" />
             <div>
-                <img src={Img} className='w-[90%]' alt="" />
+                <img src={Img} className='w-[90%] z-10' alt="" />
             </div>
             <div className='flex flex-col justify-start'>
                 <img src={Text} className='w-[95%] mb-[20px]' alt="" />
