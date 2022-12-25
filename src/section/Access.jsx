@@ -9,7 +9,7 @@ const Access = () => {
     return (
         <div className='relative access w-full h-[100vh] mb-[100px]'>
             <img src={AtmosphereLeft} className='absolute w-[30%] bottom-0 left-[-2%]' alt="" />
-            <img src={Background} className='absolute top-[40%]' alt="" />
+            <img src={Background} className='absolute top-[40%] opacity-[0.4]' alt="" />
             <div className='access-light-center'></div>
             <div className='access-light-left'></div>
             <div className='relative left-[60%] w-[500px] flex items-center justify-center'>
