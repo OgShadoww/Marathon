@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d002ec1.css",
+    "main.js": "/static/js/main.b887f3a6.js",
+    "static/media/begin.png": "/static/media/begin.501eaa69f66131bb925f.png",
+    "static/media/begin-bottom.png": "/static/media/begin-bottom.6f9021df16aeb771e65d.png",
+    "static/media/top-schedule.png": "/static/media/top-schedule.21def04b99689a8559dd.png",
+    "static/media/COSMOS.png": "/static/media/COSMOS.03495211eb1c1a546cbc.png",
+    "static/media/background-access.png": "/static/media/background-access.921eab4a973bcde125ad.png",
+    "static/media/atmosphere-livitate3.png": "/static/media/atmosphere-livitate3.b6e70fa09bcaf603212b.png",
+    "static/media/bottom-schedule.png": "/static/media/bottom-schedule.30b3275c4ebee0101895.png",
+    "static/media/atmosphere-livitate1.png": "/static/media/atmosphere-livitate1.d990685d49b8bfc99bf7.png",
+    "static/media/atmosphere-livitate2.png": "/static/media/atmosphere-livitate2.d990685d49b8bfc99bf7.png",
+    "static/media/Steppe.ttf": "/static/media/Steppe.e711073ed8756c11e982.ttf",
+    "static/media/Steppe.woff": "/static/media/Steppe.b2e88961eafc70b673c2.woff",
+    "static/media/Steppe.otf": "/static/media/Steppe.f79c073548c1a38c1dca.otf",
+    "index.html": "/index.html",
+    "main.1d002ec1.css.map": "/static/css/main.1d002ec1.css.map",
+    "main.b887f3a6.js.map": "/static/js/main.b887f3a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d002ec1.css",
+    "static/js/main.b887f3a6.js"
+  ]
+}
