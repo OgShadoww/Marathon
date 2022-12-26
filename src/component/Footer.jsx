@@ -24,9 +24,15 @@ const Footer = () => {
                         <h4 class="font-eudoxus font-extrabold text-[24px] text-white">COSMOS</h4>
                         <p class="font-eudoxus font-normal text-[14px] text-[#fff] opacity-50">Copyright © 2021 - 2022 KOSMOS. All rights reserved.</p>
                         <div className='flex gap-4'>
-                            <img src={Telegram} className='w-[24px] h-[24px] object-contain' alt="" />
-                            <img src={Instagram} className='w-[24px] h-[24px] object-contain' alt="" />
-                            <img src={Youtube} className='w-[24px] h-[24px] object-contain' alt="" />
+                            <a href="https://t.me/crypto_of_secret">
+                                <img src={Telegram} className='w-[24px] h-[24px] object-contain' alt="" />
+                            </a>
+                            <a href="https://instagram.com/tothemoon.inst?igshid=YmMyMTA2M2Y=">
+                                <img src={Instagram} className='w-[24px] h-[24px] object-contain' alt="" />
+                            </a>
+                            <a href="https://youtube.com/@cryptosecrets_UA">
+                                <img src={Youtube} className='w-[24px] h-[24px] object-contain' alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>
