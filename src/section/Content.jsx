@@ -18,10 +18,17 @@ const Content = () => {
             setCurrent(current+1)
         }
     }
+    const prevCurrent = () => {
+        if(current === 1) {
+            setCurrent(10)
+        }
+        else {
+            setCurrent(current-1)
+        }
+    }
     return (
         <div className='flex flex-col justify-center items-center'>
             <h1 className='uppercase text-[#DAD0FF] text-[44px] mb-[100px]'>контент марафону</h1>
-            <img className='w-[7%] mb-[50px]' src={Arrow}/>
             <div className='flex md:flex-col lg:flex-row md:justify-center items-center lg:justify-between gap-[50px] w-full px-[100px]'>
                 <div className='line-success lg:rotate-0 md:rotate-90'>
                     {/* <LineSuccess num={1} current={current} text="Вступний урок" changeCurrent={changeCurrent}/>
@@ -38,7 +45,7 @@ const Content = () => {
                         <LineSuccess num={video.number} current={current} text={video.title} changeCurrent={changeCurrent}/>    
                     )}
                 </div>
-                <VideoItem video={videoArray[current - 1].video} nextCurrent={nextCurrent}/>
+                <VideoItem video={videoArray[current - 1].video} nextCurrent={nextCurrent} prevCurrent={prevCurrent} title={videoArray[current - 1].title} question={videoArray[current - 1].question}/>
             </div>
         </div>
     );
