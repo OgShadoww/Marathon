@@ -2,7 +2,7 @@ import React from 'react';
 
 const VideoItem = ({nextCurrent, prevCurrent, video, title, question}) => {
     return (
-        <div className='bg-[#D9D9D9] flex flex-col gap-[20px] items-start justify-center  bg-opacity-[0.1] w-[70%] px-[15px] py-[10px] youtube'>
+        <div className='bg-[#D9D9D9] flex flex-col gap-[20px] items-start justify-center  bg-opacity-[0.1] w-[100%] lg:w-[70%] md:w-[90%] sm:w-[90%] px-[15px] py-[10px] youtube'>
             <h1 className='text-[34px] font-bold text-left'>
                 {title}
             </h1>
