@@ -8,9 +8,9 @@ const Content = () => {
             <h1 className='uppercase text-[#DAD0FF] text-[44px] mb-[100px]'>контент марафону</h1>
             <img className='w-[7%] mb-[20px]' src={Arrow}/>
             <div className='w-full youtube px-[20px]'>
-                <iframe width="966" height="543" src="https://www.youtube.com/embed/VpRNtyuGwnI" title="CS |  Вступ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                {/* <iframe width="966" height="543" src="https://www.youtube.com/embed/VpRNtyuGwnI" title="CS |  Вступ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
             </div>
-            <div className='line-success'>
+            <div className='line-success '>
                 <LineSuccess num={1} position={1}/>
                 <LineSuccess num={2}/>
                 <LineSuccess num={3}/>

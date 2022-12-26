@@ -57,10 +57,11 @@ body {
 
 .line-success {
   background-image: url('/src/img/line.png');
-  background-size: 20%;
+  background-size: 13%;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   display: flex;
   flex-direction: column;
   gap: 50px;
+  border-radius: 50px;
 }
