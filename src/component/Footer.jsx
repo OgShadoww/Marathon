@@ -22,7 +22,7 @@ const Footer = () => {
                     <div className='mb-[50px] h-[2px] bg-[#fff] opacity-10'></div>
                     <div className='flex items-center justify-between flex-wrap gap-4'>
                         <h4 class="font-eudoxus font-extrabold text-[24px] text-white">COSMOS</h4>
-                        <p class="font-eudoxus font-normal text-[14px] text-[#fff] opacity-50">Copyright © 2021 - 2022 KOSMOS. All rights reserved.</p>
+                        <p class="font-eudoxus font-normal text-[14px] text-[#fff] opacity-50">Copyright © 2021 - 2022 COSMOS. All rights reserved.</p>
                         <div className='flex gap-4'>
                             <a href="https://t.me/crypto_of_secret">
                                 <img src={Telegram} className='w-[24px] h-[24px] object-contain' alt="" />
