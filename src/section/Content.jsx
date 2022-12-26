@@ -1,16 +1,23 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import LineSuccess from '../component/LineSuccess';
 import Arrow from '../img/arrow.png'
 
 const Content = () => {
-    const [current, setCurrent] = useState(1)
+    const i = localStorage.getItem('num')
+    const [current, setCurrent] = useState(i)
+
+    useEffect(() => {
+        setCurrent(i)
+    })
 
     const changeCurrent = (i) => {
+        localStorage.setItem('num', i)
         setCurrent(i)
     }
     const nextCurrent = () => {
         if(current === 9) {
             setCurrent(1)
+            console.log('f')
         }
         else {
             setCurrent(current+1)
@@ -32,10 +39,11 @@ const Content = () => {
                     <LineSuccess num={7} current={current} changeCurrent={changeCurrent}/>
                     <LineSuccess num={8} current={current} changeCurrent={changeCurrent}/>
                     <LineSuccess num={9} current={current} changeCurrent={changeCurrent}/>
+                    <LineSuccess num={10} current={current} changeCurrent={changeCurrent}/>
                 </div>
                 <div className='bg-[#D9D9D9] flex flex-col gap-[20px] items-end bg-opacity-[0.1] w-[80%] px-[15px] py-[10px]'>
                     <iframe width="966" height="543" src="https://www.youtube.com/embed/VpRNtyuGwnI" title="CS |  Вступ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    <button onClick={() => setCurrent(current+1)} className='bg-gradient-to-r from-[#3588D2] to-[#91C5F2] px-[50px] py-[15px] text-white rounded-[10px] w-[30%]'>Наступий</button>
+                    <button onClick={() => nextCurrent()} className='bg-gradient-to-r from-[#3588D2] to-[#91C5F2] px-[50px] py-[15px] text-white rounded-[10px] w-[30%]'>Наступий</button>
                 </div>
             </div>
         </div>
