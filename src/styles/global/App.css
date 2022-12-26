@@ -70,8 +70,6 @@ body {
   display: flex;
   gap: 20px;
   width: 100%;
-  overflow: scroll;
-
 }
 
 @media(max-width:1023px) {
@@ -82,5 +80,6 @@ body {
 @media(max-width:525px) {
   .line-success_horizontal {
     gap: 15px;
+    overflow: scroll;
   }
 }
