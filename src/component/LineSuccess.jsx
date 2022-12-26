@@ -15,8 +15,8 @@ const LineSuccess = ({num, current, changeCurrent, text}) => {
     }
 
     return (
-        <div className='flex items-center gap-[10px]'>
-            <div onClick={() => changeCurrent(num)} className={baseStyle.join(' ')}>
+        <div onClick={() => changeCurrent(num)} className='flex items-center gap-[10px]'>
+            <div className={baseStyle.join(' ')}>
                 {num}
             </div>
             <div className='flex flex-col items-start '>
