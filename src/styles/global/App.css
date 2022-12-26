@@ -55,6 +55,12 @@ body {
   width: 100%;
 }
 
+.begin {
+  background-image: url('/src/img/snow.png');
+  background-size: 100%;
+  animation: snowFall 30s linear infinite;
+}
+
 .line-success_vertical {
   background-image: url('/src/img/line.png');
   background-size: 7%;
@@ -81,5 +87,14 @@ body {
 @media(max-width:525px) {
   .line-success_horizontal {
     gap: 30px;
+  }
+}
+
+@keyframes snowFall {
+  0% {
+    background-position: 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 600px 1200px, 400px 400px, 0px;
   }
 }

@@ -6,7 +6,7 @@ import Img from '../img/begin/begin.png'
 
 const Begin = () => {
     return (
-        <div className='relative flex flex-col lg:flex-row md:flex-row sm:flex-row justify-center items-center gap-[50px] begin h-[80vh] w-full px-[50px] '>
+        <div className='begin relative flex flex-col lg:flex-row md:flex-row sm:flex-row justify-center items-center gap-[50px] begin h-[80vh] w-full px-[50px] '>
             <div className='header-light hidden lg:block sm:hidden'></div>
             <img src={TopSchedule} className='absolute top-0 right-0 w-[60%] z-0' alt="" />
             <img src={Img} className='mr-[50px] hidden lg:block md:block sm:hidden lg:w-[30%] md:w-[40%] sm:w-[40%] z-10' alt="" />
