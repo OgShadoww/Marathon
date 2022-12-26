@@ -1,6 +1,6 @@
 export const videoArray = [
     {
-        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/rsW73J4YxoU" title="Вступ в марафон" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>, 
+        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/rsW73J4YxoU" title="Вступ в марафон" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
         question:[
            'Скоро'
         ],
