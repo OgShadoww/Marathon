@@ -51,40 +51,16 @@ body {
   height: 300px;
 }
 
-.access-light-center {
-  background: #348ADF;
-  filter: blur(300px);
-  width: 300px; 
-  height: 300px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 80%;
-}
-.access-light-left {
-  background: #348ADF;
-  filter: blur(300px);
-  width: 200px; 
-  height: 200px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-}
-
-.universe-light {
-  background: #348ADF;
-  filter: blur(350px);
-  width: 200px;
-  height: 200px;
-}
-
 .youtube iframe {
   width: 100%;
 }
 
-/* .begin {
-  background-image: url('/src/img/begin/begin-background.png');
-  background-size: 100%;
+.line-success {
+  background-image: url('/src/img/line.png');
+  background-size: 20%;
   background-repeat: no-repeat;
-} */
-
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
