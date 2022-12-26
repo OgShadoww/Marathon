@@ -57,7 +57,7 @@ body {
 
 .line-success {
   background-image: url('/src/img/line.png');
-  background-size: 13%;
+  background-size: 7%;
   background-repeat: no-repeat;
   /* background-position: center; */
   display: flex;
