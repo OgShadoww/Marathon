@@ -66,13 +66,21 @@ body {
   background-image: url('/src/img/line-horizontal.png');
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   display: flex;
   gap: 20px;
+  width: 100%;
+  overflow: scroll;
+
 }
 
 @media(max-width:1023px) {
   .line-success {
     background-size: 20%;
+  }
+}
+@media(max-width:525px) {
+  .line-success_horizontal {
+    gap: 15px;
   }
 }
