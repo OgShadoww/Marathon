@@ -7,7 +7,14 @@ const Content = () => {
 
     const changeCurrent = (i) => {
         setCurrent(i)
-        console.log('f')
+    }
+    const nextCurrent = () => {
+        if(current === 9) {
+            setCurrent(1)
+        }
+        else {
+            setCurrent(current+1)
+        }
     }
     
     return (
