@@ -6,7 +6,7 @@ const LineSuccess = ({num, position}) => {
 
     if(position === num) {
         baseStyle.pop()
-        baseStyle.push('bg-[#00F17D] border-[#fff] border-[1px] text-[#fff] shadow-sm')
+        baseStyle.push('bg-[#00F17D] border-[#fff] border-[2px] text-[#fff] shadow-lg')
     }
 
     return (
