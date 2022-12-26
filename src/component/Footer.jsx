@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='footer-gradient'></div>
             <div className='2xl:max-w-[1280px] w-full mx-auto flex flex-col gap-8'>
                 <div className='flex items-center justify-between flex-wrap gap-5'>
-                    <h4 class="font-eudoxus font-bold md:text-[64px] text-[44px] text-white">Enter the Crypto</h4>
+                    <h4 class="font-eudoxus font-bold md:text-[64px] text-[44px] text-white text-left">Enter the Crypto</h4>
                     <a href="https://t.me/crypto_of_secret">
                         <button className='flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]'>
                             <img src={Telegram} className='w-[24px] h-[24px] object-contain' alt="" />
