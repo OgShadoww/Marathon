@@ -1,8 +1,16 @@
 import React from 'react';
 
-const LineSuccess = ({num}) => {
+const LineSuccess = ({num, position}) => {
+    const baseStyle = ['flex flex-col justify-center items-center text-[26px] font-bold rounded-[50%] w-[45px] h-[45px]', 'bg-[#D9D0FF] text-[#8880A8]']
+    const thisPosition = num
+
+    if(position === num) {
+        baseStyle.pop()
+        baseStyle.push('bg-[#00F17D] border-[#fff] border-[1px] text-[#fff] shadow-sm')
+    }
+
     return (
-        <div className='flex flex-col justify-center items-center text-[30px] font-bold rounded-[50%] w-[80px] h-[80px] text-[#8880A8] bg-[#D9D0FF]'>
+        <div className={baseStyle.join(' ')}>
             {num}
         </div>
     );

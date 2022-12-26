@@ -11,7 +11,7 @@ const Content = () => {
                 <iframe width="966" height="543" src="https://www.youtube.com/embed/VpRNtyuGwnI" title="CS |  Вступ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
             <div className='line-success'>
-                <LineSuccess num={1}/>
+                <LineSuccess num={1} position={1}/>
                 <LineSuccess num={2}/>
                 <LineSuccess num={3}/>
                 <LineSuccess num={4}/>
