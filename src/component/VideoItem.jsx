@@ -20,7 +20,7 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question}) => {
                         </p>    
                     )
                 :
-                    ''
+                    'Скоро'
                 }
             </div>
         </div>
