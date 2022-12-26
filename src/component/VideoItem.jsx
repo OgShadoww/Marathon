@@ -14,8 +14,8 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question}) => {
             <div className='text-left'>
                 <h3 className='text-[22px] text-[#bdbac5] font-bold mb-[10px]'>Завдання</h3>
                 {question !== undefined ? 
-                    question.map(quest => 
-                        <p className='mb-[10px]'>
+                    question.map((quest, index) => 
+                        <p key={index} className='mb-[10px]'>
                             {quest}
                         </p>    
                     )
