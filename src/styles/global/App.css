@@ -44,6 +44,12 @@ body {
   animation: snowFall 30s linear infinite;
 }
 
+.background-snow {
+  background-image: url('/src/img/snow2.png');
+  background-size: 100%;
+  animation: snowFall 30s linear infinite;
+}
+
 .line-success_vertical {
   background-image: url('/src/img/line.png');
   background-size: 7%;
@@ -79,5 +85,14 @@ body {
   }
   100% {
     background-position: 600px 2000px, 400px 200px, 0px;
+  }
+}
+
+@keyframes snowFall2 {
+  0% {
+    background-position: 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 0px 100px, 0px 1000px, 1000px;
   }
 }

@@ -9,6 +9,9 @@ const Begin = ({buttonHandler, Elementref}) => {
 
     return (
         <div className='begin relative flex flex-col lg:flex-row md:flex-row sm:flex-row justify-center items-center gap-[50px] begin h-[80vh] w-full px-[50px] '>
+            <div className='absolute top-0 bottom-0 left-0 right-0 w-full h-full background-snow'>
+                
+            </div>
             <img src={Light} className='absolute top-[-40%] left-[-40%] w-[80%] hidden lg:block md:hidden sm:hidden' alt="" />
             <img src={Light} className='absolute top-[40%] right-[-40%] w-[80%] hidden lg:block md:hidden sm:hidden' alt="" />
             <img src={TopSchedule} className='absolute pointer-events-none top-0 right-0 w-[60%] z-0' alt="" />
