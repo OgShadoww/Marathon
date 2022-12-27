@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { createRef, useEffect, useState } from 'react';
 import LineSuccessHorizontal from '../component/LineSuccessHorizontal';
 import LineSuccess from '../component/LineSuccessVertical';
 import VideoItem from '../component/VideoItem';
 import Arrow from '../img/arrow.png'
 import { videoArray } from '../videos';
 
-const Content = () => {
+const Content = ({Elementref}) => {
     const [current, setCurrent] = useState(1)
 
     const changeCurrent = (i) => {
@@ -28,7 +28,7 @@ const Content = () => {
         }
     }
     return (
-        <div className='flex flex-col justify-center items-center mb-[100px]'>
+        <div ref={Elementref} className='flex flex-col justify-center items-center mb-[100px]'>
             <h1 className='uppercase text-[#DAD0FF] text-[44px] mb-[100px]'>контент марафону</h1>
             <div className='flex flex-col md:flex-col sm:flex-col lg:flex-row md:justify-center items-center lg:justify-between gap-[50px] w-full px-[30px] lg:px-[100px] md:px-[50px]'>
                 <div className='line-success_vertical hidden lg:flex md:hidden sm:hidden'>
