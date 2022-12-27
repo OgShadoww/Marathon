@@ -33,28 +33,6 @@ body {
   overflow: hidden;
 }
 
-/* light */
-
-.header-light {
-  background: #348ADF;
-  filter: blur(350px);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 270px;
-  height: 300px;
-}
-
-.begin-light {
-  background: #348ADF;
-  filter: blur(250px);
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 300px;
-  height: 300px;
-}
-
 .youtube iframe {
   width: 100%;
   z-index: 100;
