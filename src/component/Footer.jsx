@@ -33,6 +33,9 @@ const Footer = () => {
                             <a href="https://youtube.com/@cryptosecrets_UA">
                                 <img src={Youtube} className='w-[24px] h-[24px] object-contain' alt="" />
                             </a>
+                            <a className='text-[gold] underline' href='https://www.instagram.com/orest_galenza/'>
+                                DEVELOPER - Galenza Orest
+                            </a>
                         </div>
                     </div>
                 </div>
