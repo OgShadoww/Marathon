@@ -25,7 +25,7 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question}) => {
             </div>
             <div className='text-left'>
                 <h3 className='text-[22px] text-[#bdbac5] font-bold mb-[10px]'>
-                    Домашнє завдання скидайте <a className="text-[#5184c6] underline" href='https://t.me/CS_Admiin'>СЮДИ</a>
+                    Домашнє завдання скидайте <a className="text-[#5184c6] underline" href='https://t.me/CS_Admiin' target="_blank">СЮДИ</a>
                 </h3>
             </div>
         </div>
