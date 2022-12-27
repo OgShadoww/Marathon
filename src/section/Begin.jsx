@@ -18,7 +18,7 @@ const Begin = ({buttonHandler, Elementref}) => {
                 <p className='text-center lg:text-left md:text-left sm:text-[center] lg:max-w-[700px] md:max-w-[700px] sm:max-w-[600px] max-w-[400px] mb-[30px]'>
                     Cosmos - криптовалютний марафон націлений на загальний розвиток українського ком’юніті в сфері криптовалют. В даному марафоні ми будемо вивчати основи торгівлі на ф’ючерсах. В основі аналізу ринку в нас лежить концепція Smart Money
                 </p>
-                <button onClick={() => buttonHandler(Elementref)} className='uppercase z-[100] cursor-pointer text-[#B7DDFF] bg-gradient-to-b from-[#3387D0] to-[#62A4DE] w-[70%] px-[20px] py-[20px] rounded-[10px]'>
+                <button onClick={() => buttonHandler(Elementref)} className='uppercase z-[100] cursor-pointer text-[#B7DDFF] bg-gradient-to-b from-[#3387D0] to-[#62A4DE] w-[70%] px-[20px] py-[20px] rounded-[10px] hover:from-[#2e75b4] hover:to-[#5b98cd]'>
                     НАВЧАТИСЬ БЕЗКОШТОВНО
                 </button>
             </div>
