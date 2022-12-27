@@ -32,12 +32,12 @@ const Content = ({Elementref}) => {
             <div className='flex flex-col md:flex-col sm:flex-col lg:flex-row md:justify-center items-center lg:justify-between gap-[50px] w-full px-[30px] lg:px-[100px] md:px-[50px]'>
                 <div className='line-success_vertical hidden lg:flex md:hidden sm:hidden z-10'>
                     {videoArray.map(video => 
-                        <LineSuccess key={video.number} num={video.number} current={current} text={video.title} changeCurrent={changeCurrent}/>    
+                        <LineSuccess finish={video.finish} key={video.number} num={video.number} current={current} text={video.title} changeCurrent={changeCurrent}/>    
                     )}
                 </div>
                 <div className='line-success_horizontal flex lg:hidden md:flex sm:flex z-10'>
                     {videoArray.map(video => 
-                        <LineSuccessHorizontal key={video.number} num={video.number} current={current} text={video.title} changeCurrent={changeCurrent}/>    
+                        <LineSuccessHorizontal finish={video.finish} key={video.number} num={video.number} current={current} text={video.title} changeCurrent={changeCurrent}/>    
                     )}
                 </div>
                 <VideoItem video={videoArray[current - 1].video} nextCurrent={nextCurrent} prevCurrent={prevCurrent} title={videoArray[current - 1].title} question={videoArray[current - 1].question}/>

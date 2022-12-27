@@ -68,6 +68,12 @@ body {
   overflow: scroll;
 }
 
+.Finish {
+  background-color: #00F17D;
+  border: #fff 2px solid;
+  color: #fff;
+}
+
 @media(max-width:1023px) {
   .line-success {
     background-size: 20%;
