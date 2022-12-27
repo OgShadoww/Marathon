@@ -32,7 +32,7 @@ export const videoArray = [
     {video:"Скоро", description:'', title:'Торгові інстурменти 1', number:5, finish:false},
     {video:"Скоро", description:'', title:'Торгові інстурменти 2', number:6, finish:false},
     {video:"Скоро", description:'', title:'Боковий рух', number:7, finish:false},
-    {video:"Скоро", description:'', title:'8. Тейк Профіт - Стоп Лос', number:8, finish:false},
+    {video:"Скоро", description:'', title:'Тейк Профіт - Стоп Лос', number:8, finish:false},
     {video:"Скоро", description:'', title:'Фази ринку', number:9, finish:false},
     {video:"Скоро", description:'', title:'Комплексна робота ', number:10, finish:false},
 ]
