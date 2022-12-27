@@ -14,7 +14,7 @@ export const videoArray = [
         number:1
     },
     {
-        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/XrQ5O8DYxb0" title="Робота в TradingView" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
+        // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/XrQ5O8DYxb0" title="Робота в TradingView" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
         question:[
             '- Зареєструвати обліковий запис на TradingView',
             '- Відкрити графік BTC/USDT та подивитися його на різних таймфреймах (4Н, 1Н, 15М, 5М), скинути скріншоти графіка з різних таймфреймів.',
