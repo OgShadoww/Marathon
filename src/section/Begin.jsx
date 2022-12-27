@@ -8,7 +8,7 @@ const Begin = ({buttonHandler, Elementref}) => {
 
     return (
         <div className='begin relative flex flex-col lg:flex-row md:flex-row sm:flex-row justify-center items-center gap-[50px] begin h-[80vh] w-full px-[50px] '>
-            <div className='header-light hidden lg:block sm:hidden'></div>
+            {/* <div className='header-light hidden lg:block sm:hidden'></div> */}
             <img src={TopSchedule} className='absolute pointer-events-none top-0 right-0 w-[60%] z-0' alt="" />
             <img src={Img} className='mr-[50px] hidden lg:block md:block sm:hidden lg:w-[30%] md:w-[40%] sm:w-[40%] z-10' alt="" />
             <div className='flex flex-col justify-center items-center lg:items-start md:items-start sm:items-center lg:justify-start md:justify-start'>
@@ -20,9 +20,7 @@ const Begin = ({buttonHandler, Elementref}) => {
                     НАВЧАТИСЬ БЕЗКОШТОВНО
                 </button>
             </div>
-            <div className='begin-light hidden lg:block sm:hidden'>
-
-            </div>
+            {/* <div className='begin-light hidden lg:block sm:hidden'></div> */}
             <img src={BottomSchedule} className='absolute pointer-events-none bottom-[-80%] left-0 w-[50%]' alt="" />
         </div>
     );
