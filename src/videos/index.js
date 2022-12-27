@@ -15,8 +15,9 @@ export const videoArray = [
     },
     {
         // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/XrQ5O8DYxb0" title="Робота в TradingView" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
+        video:"Скоро",
         question:[
-            '- Зареєструвати обліковий запис на TradingView',
+            <p>- Зареєструвати обліковий запис на <a className="text-[#5184c6] underline" href="https://ru.tradingview.com/">TradingView</a></p>,
             '- Відкрити графік BTC/USDT та подивитися його на різних таймфреймах (4Н, 1Н, 15М, 5М), скинути скріншоти графіка з різних таймфреймів.',
             '- Скористатися всіма інструментами, що розглядаються на уроці (довільно на робочому просторі TradingView розмістити інструменти), зробити скріншот (постаратися все вмістити компактно, щоб не було великої кількості скріншотів).'
         ],
