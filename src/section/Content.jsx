@@ -2,7 +2,6 @@ import React, { createRef, useEffect, useState } from 'react';
 import LineSuccessHorizontal from '../component/LineSuccessHorizontal';
 import LineSuccess from '../component/LineSuccessVertical';
 import VideoItem from '../component/VideoItem';
-import Arrow from '../img/arrow.png'
 import { videoArray } from '../videos';
 
 const Content = ({Elementref}) => {
