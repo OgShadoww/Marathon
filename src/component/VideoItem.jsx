@@ -25,8 +25,8 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question, stream}) =
             </div>
             {stream == true ?
                 <div className='text-left'>
-                    <h3 className='text-[34px]'> 
-                        СТРІМ 
+                    <h3 className='text-[34px] font-bold'> 
+                        Стрім
                     </h3>
                 </div>
             : ''
