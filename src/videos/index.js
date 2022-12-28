@@ -45,7 +45,7 @@ export const videoArray = [
         number:3, 
         finish:false,
         live: true,
-        stream:<iframe width="752" height="480" src="https://www.youtube.com/embed/j0XEaKvdqnY" title="КРИПТА" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        // stream:
     },
     {video:"Скоро", description:'', title:'Поняття ліквідності', number:4, finish:false, live:false},
     {video:"Скоро", description:'', title:'Торгові інстурменти 1', number:5, finish:false, live:false},
