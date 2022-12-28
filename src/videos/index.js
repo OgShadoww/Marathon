@@ -12,27 +12,45 @@ export const videoArray = [
         ],
         title:'Вступний урок', 
         number:1,
-        finish:true
+        finish:true,
+        live:false
     },
     {
-        // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/XrQ5O8DYxb0" title="Робота в TradingView" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
-        video:"Скоро",
+        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/XrQ5O8DYxb0" title="Робота в TradingView" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
         question:[
-            // <p>- Зареєструвати обліковий запис на <a className="text-[#5184c6] underline" href="https://ru.tradingview.com/">TradingView</a></p>,
-            // '- Відкрити графік BTC/USDT та подивитися його на різних таймфреймах (4Н, 1Н, 15М, 5М), скинути скріншоти графіка з різних таймфреймів.',
-            // '- Скористатися всіма інструментами, що розглядаються на уроці (довільно на робочому просторі TradingView розмістити інструменти), зробити скріншот (постаратися все вмістити компактно, щоб не було великої кількості скріншотів).'
-            'Скоро'
+            <p>- Зареєструвати обліковий запис на <a className="text-[#5184c6] underline" href="https://ru.tradingview.com/">TradingView</a></p>,
+            <p>- Відкрити графік BTC/USDT та подивитися його на різних таймфреймах (4Н, 1Н, 15М, 5М), скинути скріншоти графіка з різних таймфреймів.</p>,
+            <p>- Скористатися всіма інструментами, що розглядаються на уроці (довільно на робочому просторі TradingView розмістити інструменти), зробити скріншот (постаратися все вмістити компактно, щоб не було великої кількості скріншотів).</p>
         ],
         title:'Робота в TradingView', 
         number:2,
-        finish:false
+        finish:true,
+        live:false
     },
-    {video:"Скоро", description:'', title:'Структура ринку, BOS', number:3, finish:false},
-    {video:"Скоро", description:'', title:'Поняття ліквідності', number:4, finish:false},
-    {video:"Скоро", description:'', title:'Торгові інстурменти 1', number:5, finish:false},
-    {video:"Скоро", description:'', title:'Торгові інстурменти 2', number:6, finish:false},
-    {video:"Скоро", description:'', title:'Боковий рух', number:7, finish:false},
-    {video:"Скоро", description:'', title:'Тейк Профіт - Стоп Лос', number:8, finish:false},
-    {video:"Скоро", description:'', title:'Фази ринку', number:9, finish:false},
-    {video:"Скоро", description:'', title:'Комплексна робота ', number:10, finish:false},
+    {
+        // video:<iframe width="574" height="480" src="https://www.youtube.com/embed/R_W8kMtwPxc" title="Базова структура ринку" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+        video:"Скоро", 
+        question:[
+            // <p>- Позначити висхідний тренд на 1Н, 15М таймфреймі.</p>,
+            // <p>- Показати моментум на висхідному та низхідному тренді.</p>,
+            // <p>- Позначити спадний тренд на 1Н, 15М таймфреймі.</p>,
+            // <h3 className='font-bold text-[16px] mt-[10px]'>після стріма:</h3>,
+            // <p>- Позначити HH та HL висхідної структури на 1Н, 15М таймфреймі.</p>,
+            // <p>- Позначити LH та LL низхідної структури на 1Н, 15М таймфреймі.</p>,
+            // <p>- Позначити bos і conf висхідної структури на 1Н, 15М таймфреймі.</p>,
+            // <p>- Позначити bos і conf низхідної структури на 1Н, 15М таймфреймі.</p>,
+            'Скоро'
+        ],
+        title:'Структура ринку, BOS', 
+        number:3, 
+        finish:false,
+        live: true
+    },
+    {video:"Скоро", description:'', title:'Поняття ліквідності', number:4, finish:false, live:false},
+    {video:"Скоро", description:'', title:'Торгові інстурменти 1', number:5, finish:false, live:false},
+    {video:"Скоро", description:'', title:'Торгові інстурменти 2', number:6, finish:false, live:false},
+    {video:"Скоро", description:'', title:'Боковий рух', number:7, finish:false, live:true},
+    {video:"Скоро", description:'', title:'Тейк Профіт - Стоп Лос', number:8, finish:false, live:false},
+    {video:"Скоро", description:'', title:'Фази ринку', number:9, finish:false, live:false},
+    {video:"Скоро", description:'', title:'Комплексна робота ', number:10, finish:false, live:true},
 ]

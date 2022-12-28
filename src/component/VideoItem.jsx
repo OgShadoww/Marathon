@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoItem = ({nextCurrent, prevCurrent, video, title, question}) => {
+const VideoItem = ({nextCurrent, prevCurrent, video, title, question, stream}) => {
     return (
         <div className='bg-[#D9D9D9] flex flex-col gap-[20px] items-start justify-center  bg-opacity-[0.1] w-[100%] lg:w-[70%] md:w-[90%] sm:w-[90%] px-[15px] py-[10px] youtube'>
             <h1 className='text-[34px] font-bold text-left'>
@@ -23,6 +23,14 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question}) => {
                     'Скоро'
                 }
             </div>
+            {stream == true ?
+                <div className='text-left'>
+                    <h3 className='text-[34px]'> 
+                        СТРІМ 
+                    </h3>
+                </div>
+            : ''
+            }
             <div className='text-left'>
                 <h3 className='text-[22px] text-[#bdbac5] font-bold mb-[10px]'>
                     Домашнє завдання скидайте <a className="text-[#5184c6] underline" href='https://t.me/CS_Admiin' target="_blank">СЮДИ</a>

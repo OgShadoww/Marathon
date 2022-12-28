@@ -26,6 +26,7 @@ const Content = ({Elementref}) => {
             setCurrent(current-1)
         }
     }
+    const videoCurrent = current - 1
     return (
         <div ref={Elementref} className='flex flex-col justify-center items-center mb-[100px]'>
             <h1 className='uppercase text-[#DAD0FF] text-[44px] mb-[100px]'>контент марафону</h1>
@@ -40,7 +41,7 @@ const Content = ({Elementref}) => {
                         <LineSuccessHorizontal finish={video.finish} key={video.number} num={video.number} current={current} text={video.title} changeCurrent={changeCurrent}/>    
                     )}
                 </div>
-                <VideoItem video={videoArray[current - 1].video} nextCurrent={nextCurrent} prevCurrent={prevCurrent} title={videoArray[current - 1].title} question={videoArray[current - 1].question}/>
+                <VideoItem stream={videoArray[videoCurrent].live} video={videoArray[videoCurrent].video} nextCurrent={nextCurrent} prevCurrent={prevCurrent} title={videoArray[videoCurrent].title} question={videoArray[videoCurrent].question}/>
             </div>
         </div>
     );
