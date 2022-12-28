@@ -44,7 +44,8 @@ export const videoArray = [
         title:'Структура ринку, BOS', 
         number:3, 
         finish:false,
-        live: true
+        live: true,
+        stream:<iframe width="752" height="480" src="https://www.youtube.com/embed/j0XEaKvdqnY" title="КРИПТА" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     },
     {video:"Скоро", description:'', title:'Поняття ліквідності', number:4, finish:false, live:false},
     {video:"Скоро", description:'', title:'Торгові інстурменти 1', number:5, finish:false, live:false},

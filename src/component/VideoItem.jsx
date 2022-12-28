@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoItem = ({nextCurrent, prevCurrent, video, title, question, stream}) => {
+const VideoItem = ({nextCurrent, prevCurrent, video, title, question, live, stream}) => {
     return (
         <div className='bg-[#D9D9D9] flex flex-col gap-[20px] items-start justify-center  bg-opacity-[0.1] w-[100%] lg:w-[70%] md:w-[90%] sm:w-[90%] px-[15px] py-[10px] youtube'>
             <h1 className='text-[34px] font-bold text-left'>
@@ -23,11 +23,12 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question, stream}) =
                     'Скоро'
                 }
             </div>
-            {stream == true ?
-                <div className='text-left'>
+            {live == true ?
+                <div className='text-left w-full'>
                     <h3 className='text-[34px] font-bold'> 
                         Стрім
                     </h3>
+                    {stream}
                 </div>
             : ''
             }
