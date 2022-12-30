@@ -25,14 +25,17 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question, live, stre
             </div>
             {live == true ?
                 <div className='text-left w-full'>
-                    <h3 className='text-[34px] font-bold'> 
-                        Стрім
-                    </h3>
                     {stream}
                     {streamQuestion ?
-                        streamQuestion.map(question => 
-                            <p className='mt-[10px]'>{question}</p>
-                        )
+                        <div className='mt-[20px]'>
+                            <div className='flex justify-between'> 
+                                <h3 className='text-[22px] text-[#bdbac5] font-bold mb-[10px]'>Завдання</h3>
+                                <span className='text-[13px] text-[#686676]'>31.12.2022 10.00</span>
+                            </div>
+                            {streamQuestion.map(question => 
+                                <p className='mt-[10px]'>{question}</p>
+                            )}
+                        </div>
                     :
                         ''
                     }

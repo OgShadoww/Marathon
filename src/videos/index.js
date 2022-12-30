@@ -44,7 +44,7 @@ export const videoArray = [
         number:3, 
         finish:true,
         live: true,
-        stream:<iframe width="1440" height="620" src="https://www.youtube.com/embed/pmAZlKlEGg0" title="Стрім - ринкова структура" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/pmAZlKlEGg0" title="Стрім - ринкова структура" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     },
     {
         // video:<iframe width="752" height="480" src="https://www.youtube.com/embed/EXXE1uAQ2yI" title="Поняття ліквідності" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
