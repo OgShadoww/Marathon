@@ -28,7 +28,7 @@ export const videoArray = [
         live:false
     },
     {
-        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/TL95jJrgXjU" title="Базова структура ринку" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/TL95jJrgXjU" title="Базова структура ринку" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
         question:[
             <p>- Позначити висхідний тренд на 1Н, 15М таймфреймі.</p>,
             <p>- Показати моментум на висхідному та низхідному тренді.</p>,
