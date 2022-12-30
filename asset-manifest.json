@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/marathon/static/css/main.f9ce8095.css",
-    "main.js": "/marathon/static/js/main.3f824fb4.js",
+    "main.js": "/marathon/static/js/main.b44e9e10.js",
     "static/media/light.png": "/marathon/static/media/light.353a62cb36c458868b09.png",
     "static/media/COSMOS.png": "/marathon/static/media/COSMOS.31872b6a5ea6989f6d33.png",
     "static/media/begin.png": "/marathon/static/media/begin.70945481cb3bf114881d.png",
@@ -14,10 +14,10 @@
     "static/media/Steppe.otf": "/marathon/static/media/Steppe.f79c073548c1a38c1dca.otf",
     "index.html": "/marathon/index.html",
     "main.f9ce8095.css.map": "/marathon/static/css/main.f9ce8095.css.map",
-    "main.3f824fb4.js.map": "/marathon/static/js/main.3f824fb4.js.map"
+    "main.b44e9e10.js.map": "/marathon/static/js/main.b44e9e10.js.map"
   },
   "entrypoints": [
     "static/css/main.f9ce8095.css",
-    "static/js/main.3f824fb4.js"
+    "static/js/main.b44e9e10.js"
   ]
 }
