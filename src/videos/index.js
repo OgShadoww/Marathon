@@ -28,27 +28,50 @@ export const videoArray = [
         live:false
     },
     {
-        // video:<iframe width="574" height="480" src="https://www.youtube.com/embed/R_W8kMtwPxc" title="Базова структура ринку" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
-        video:"Скоро", 
+        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/TL95jJrgXjU" title="Базова структура ринку" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
         question:[
-            // <p>- Позначити висхідний тренд на 1Н, 15М таймфреймі.</p>,
-            // <p>- Показати моментум на висхідному та низхідному тренді.</p>,
-            // <p>- Позначити спадний тренд на 1Н, 15М таймфреймі.</p>,
-            // <h3 className='font-bold text-[16px] mt-[10px]'>після стріма:</h3>,
-            // <p>- Позначити HH та HL висхідної структури на 1Н, 15М таймфреймі.</p>,
-            // <p>- Позначити LH та LL низхідної структури на 1Н, 15М таймфреймі.</p>,
-            // <p>- Позначити bos і conf висхідної структури на 1Н, 15М таймфреймі.</p>,
-            // <p>- Позначити bos і conf низхідної структури на 1Н, 15М таймфреймі.</p>,
-            'Скоро'
+            <p>- Позначити висхідний тренд на 1Н, 15М таймфреймі.</p>,
+            <p>- Показати моментум на висхідному та низхідному тренді.</p>,
+            <p>- Позначити спадний тренд на 1Н, 15М таймфреймі.</p>,
         ],
+        // streamQuestion: [
+        //     <p>- Позначити HH та HL висхідної структури на 1Н, 15М таймфреймі.</p>,
+        //     <p>- Позначити LH та LL низхідної структури на 1Н, 15М таймфреймі.</p>,
+        //     <p>- Позначити bos і conf висхідної структури на 1Н, 15М таймфреймі.</p>,
+        //     <p>- Позначити bos і conf низхідної структури на 1Н, 15М таймфреймі.</p>,
+        // ],
         title:'Структура ринку, BOS', 
         number:3, 
-        finish:false,
+        finish:true,
         live: true,
         // stream:
     },
-    {video:"Скоро", description:'', title:'Поняття ліквідності', number:4, finish:false, live:false},
-    {video:"Скоро", description:'', title:'Торгові інстурменти 1', number:5, finish:false, live:false},
+    {
+        // video:<iframe width="752" height="480" src="https://www.youtube.com/embed/EXXE1uAQ2yI" title="Поняття ліквідності" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
+        video:'Скоро',
+        // question:[
+        //     <p>- Показати 2 приклади EQL/EQH.</p>,
+        //     <p>- Показати 2 приклади зовнішньої та внутрішньої ліквідності.</p>,
+        // ], 
+        title:'Поняття ліквідності', 
+        number:4, 
+        finish:false, 
+        live:false
+    },
+    {
+        // video:<iframe width="1440" height="651" src="https://www.youtube.com/embed/70reI-SRi9s" title="Торгові інструменти Advanced" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        video:"Скоро", 
+        // question:[
+        //     <p>- Показати 2 приклади бичачого order block.</p>,
+        //     <p>- Показати 2 приклади ведмежого order block.</p>,
+        //     <p>- Відзначити 2 POI зони.</p>,
+        //     <p>- Відзначити 2 FTA зони.</p>,
+        // ], 
+        title:'Торгові інстурменти 1',
+        number:5, 
+        finish:false, 
+        live:false
+    },
     {video:"Скоро", description:'', title:'Торгові інстурменти 2', number:6, finish:false, live:false},
     {video:"Скоро", description:'', title:'Боковий рух', number:7, finish:false, live:true},
     {video:"Скоро", description:'', title:'Тейк Профіт - Стоп Лос', number:8, finish:false, live:false},
