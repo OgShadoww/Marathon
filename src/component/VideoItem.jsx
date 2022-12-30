@@ -30,7 +30,7 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question, live, stre
                         <div className='mt-[20px]'>
                             <div className='flex justify-between'> 
                                 <h3 className='text-[22px] text-[#bdbac5] font-bold mb-[10px]'>Завдання</h3>
-                                <span className='text-[15px] font-bold text-[#686676]'>31.12.2022 10.00</span>
+                                <span className='text-[15px] font-bold text-[#686676]'>31.12.2022 10:00</span>
                             </div>
                             {streamQuestion.map(question => 
                                 <p className='mt-[10px]'>{question}</p>
