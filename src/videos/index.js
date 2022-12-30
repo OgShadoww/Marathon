@@ -34,17 +34,17 @@ export const videoArray = [
             <p>- Показати моментум на висхідному та низхідному тренді.</p>,
             <p>- Позначити спадний тренд на 1Н, 15М таймфреймі.</p>,
         ],
-        // streamQuestion: [
-        //     <p>- Позначити HH та HL висхідної структури на 1Н, 15М таймфреймі.</p>,
-        //     <p>- Позначити LH та LL низхідної структури на 1Н, 15М таймфреймі.</p>,
-        //     <p>- Позначити bos і conf висхідної структури на 1Н, 15М таймфреймі.</p>,
-        //     <p>- Позначити bos і conf низхідної структури на 1Н, 15М таймфреймі.</p>,
-        // ],
+        streamQuestion: [
+            <p>- Позначити HH та HL висхідної структури на 1Н, 15М таймфреймі.</p>,
+            <p>- Позначити LH та LL низхідної структури на 1Н, 15М таймфреймі.</p>,
+            <p>- Позначити bos і conf висхідної структури на 1Н, 15М таймфреймі.</p>,
+            <p>- Позначити bos і conf низхідної структури на 1Н, 15М таймфреймі.</p>,
+        ],
         title:'Структура ринку, BOS', 
         number:3, 
         finish:true,
         live: true,
-        // stream:
+        stream:<iframe width="1440" height="620" src="https://www.youtube.com/embed/pmAZlKlEGg0" title="Стрім - ринкова структура" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     },
     {
         // video:<iframe width="752" height="480" src="https://www.youtube.com/embed/EXXE1uAQ2yI" title="Поняття ліквідності" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 

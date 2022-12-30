@@ -31,7 +31,7 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question, live, stre
                     {stream}
                     {streamQuestion ?
                         streamQuestion.map(question => 
-                            <p>{question}</p>
+                            <p className='mt-[10px]'>{question}</p>
                         )
                     :
                         ''
