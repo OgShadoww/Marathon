@@ -44,7 +44,7 @@ export const videoArray = [
         number:3, 
         finish:true,
         live: true,
-        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/pmAZlKlEGg0" title="Стрім - ринкова структура" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/pmAZlKlEGg0" title="Стрім - ринкова структура" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     },
     {
         // video:<iframe width="752" height="480" src="https://www.youtube.com/embed/EXXE1uAQ2yI" title="Поняття ліквідності" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
@@ -72,7 +72,20 @@ export const videoArray = [
         finish:false, 
         live:false
     },
-    {video:"Скоро", description:'', title:'Торгові інстурменти 2', number:6, finish:false, live:false},
+    {
+        // video:<iframe width="1324" height="654" src="https://www.youtube.com/embed/IPBQI7icIU8" title="Торгові інструменти Base" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+        video:"Скоро", 
+        description:'', 
+         // question:[
+            //<p>- Показати 2 приклади imbalance та equilibrium.</p>
+            //<p>- Показати 2 приклади full fill.</p>
+            //<p>- Показати 2 приклади SFP.</p>
+        // ], 
+        title:'Торгові інстурменти 2', 
+        number:6, 
+        finish:false, 
+        live:false
+},
     {video:"Скоро", description:'', title:'Боковий рух', number:7, finish:false, live:true},
     {video:"Скоро", description:'', title:'Тейк Профіт - Стоп Лос', number:8, finish:false, live:false},
     {video:"Скоро", description:'', title:'Фази ринку', number:9, finish:false, live:false},
