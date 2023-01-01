@@ -47,7 +47,7 @@ export const videoArray = [
         stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/pmAZlKlEGg0" title="Стрім - ринкова структура" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     },
     {
-        // video:<iframe width="752" height="480" src="https://www.youtube.com/embed/EXXE1uAQ2yI" title="Поняття ліквідності" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
+        // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/EXXE1uAQ2yI" title="Поняття ліквідності" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
         video:'Скоро',
         // question:[
         //     <p>- Показати 2 приклади EQL/EQH.</p>,
@@ -59,7 +59,7 @@ export const videoArray = [
         live:false
     },
     {
-        // video:<iframe width="1440" height="651" src="https://www.youtube.com/embed/70reI-SRi9s" title="Торгові інструменти Advanced" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/70reI-SRi9s" title="Торгові інструменти Advanced" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
         video:"Скоро", 
         // question:[
         //     <p>- Показати 2 приклади бичачого order block.</p>,
@@ -73,7 +73,7 @@ export const videoArray = [
         live:false
     },
     {
-        // video:<iframe width="1324" height="654" src="https://www.youtube.com/embed/IPBQI7icIU8" title="Торгові інструменти Base" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+        // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/IPBQI7icIU8" title="Торгові інструменти Base" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
         video:"Скоро", 
         description:'', 
          // question:[
@@ -85,8 +85,20 @@ export const videoArray = [
         number:6, 
         finish:false, 
         live:false
-},
-    {video:"Скоро", description:'', title:'Боковий рух', number:7, finish:false, live:true},
+    },
+    {
+        // video:<iframewidth="697" height="392" src="https://www.youtube.com/embed/FTAcWaNPa3U" title="Боковий рух (Рендж)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        video:"Скоро", 
+         // question:[
+            //<p>- Показати 2 приклади range з девіаціями на висхідному тренді.</p>
+            //<p>- Показати 2 приклади range з девіаціями на низхідному тренді.</p>
+        // ], 
+        title:'Боковий рух', 
+        number:7, 
+        finish:false, 
+        live:true,
+        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/lTEpFIi7KO0" title="Стрім - Боковий рух (Range)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    },
     {video:"Скоро", description:'', title:'Тейк Профіт - Стоп Лос', number:8, finish:false, live:false},
     {video:"Скоро", description:'', title:'Фази ринку', number:9, finish:false, live:false},
     {video:"Скоро", description:'', title:'Комплексна робота ', number:10, finish:false, live:true},
