@@ -41,7 +41,7 @@ const Content = ({Elementref}) => {
                         <LineSuccessHorizontal finish={video.finish} key={video.number} num={video.number} current={current} text={video.title} changeCurrent={changeCurrent}/>    
                     )}
                 </div>
-                <VideoItem streamQuestion={videoArray[videoCurrent].streamQuestion} live={videoArray[videoCurrent].live} stream={videoArray[videoCurrent].stream} video={videoArray[videoCurrent].video} nextCurrent={nextCurrent} prevCurrent={prevCurrent} title={videoArray[videoCurrent].title} question={videoArray[videoCurrent].question}/>
+                <VideoItem date={videoArray[videoCurrent].steamDate} streamQuestion={videoArray[videoCurrent].streamQuestion} live={videoArray[videoCurrent].live} stream={videoArray[videoCurrent].stream} video={videoArray[videoCurrent].video} nextCurrent={nextCurrent} prevCurrent={prevCurrent} title={videoArray[videoCurrent].title} question={videoArray[videoCurrent].question}/>
             </div>
         </div>
     );

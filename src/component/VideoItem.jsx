@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoItem = ({nextCurrent, prevCurrent, video, title, question, live, stream, streamQuestion}) => {
+const VideoItem = ({nextCurrent, prevCurrent, video, title, question, live, stream, streamQuestion, date}) => {
     return (
         <div className='bg-[#D9D9D9] flex flex-col gap-[20px] items-start justify-center  bg-opacity-[0.1] w-[100%] lg:w-[70%] md:w-[90%] sm:w-[90%] px-[15px] py-[10px] youtube'>
             <h1 className='text-[34px] font-bold text-left'>
@@ -31,7 +31,7 @@ const VideoItem = ({nextCurrent, prevCurrent, video, title, question, live, stre
                         <div className='mt-[20px]'>
                             <div className='flex justify-between'> 
                                 <h3 className='text-[22px] text-[#bdbac5] font-bold mb-[10px]'>Завдання</h3>
-                                <span className='text-[15px] font-bold text-[#686676]'>31.12.2022 10:00</span>
+                                <span className='text-[15px] font-bold text-[#686676]'>{date}</span>
                             </div>
                             {streamQuestion.map(question => 
                                 <p className='mt-[10px]'>{question}</p>

@@ -44,7 +44,8 @@ export const videoArray = [
         number:3, 
         finish:true,
         live: true,
-        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/pmAZlKlEGg0" title="Стрім - ринкова структура" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/pmAZlKlEGg0" title="Стрім - ринкова структура" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        steamDate:'31.12.2022 10:00'
     },
     {
         // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/EXXE1uAQ2yI" title="Поняття ліквідності" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
@@ -87,7 +88,7 @@ export const videoArray = [
         live:false
     },
     {
-        // video:<iframewidth="697" height="392" src="https://www.youtube.com/embed/FTAcWaNPa3U" title="Боковий рух (Рендж)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/FTAcWaNPa3U" title="Боковий рух (Рендж)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
         video:"Скоро", 
          // question:[
             //<p>- Показати 2 приклади range з девіаціями на висхідному тренді.</p>
@@ -97,9 +98,19 @@ export const videoArray = [
         number:7, 
         finish:false, 
         live:true,
-        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/lTEpFIi7KO0" title="Стрім - Боковий рух (Range)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/lTEpFIi7KO0" title="Стрім - Боковий рух (Range)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        streamDate:'08.01.2023 10:00'
     },
     {video:"Скоро", description:'', title:'Тейк Профіт - Стоп Лос', number:8, finish:false, live:false},
     {video:"Скоро", description:'', title:'Фази ринку', number:9, finish:false, live:false},
-    {video:"Скоро", description:'', title:'Комплексна робота ', number:10, finish:false, live:true},
+    {
+        video:"Скоро", 
+        description:'', 
+        title:'Комплексна робота ', 
+        number:10, 
+        finish:false, 
+        live:true,
+        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/KHc8BjV5UXM" title="Стрім -  Комплексна робота" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        steamDate:'15.01.2023 10:00'
+    },
 ]
