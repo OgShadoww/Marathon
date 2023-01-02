@@ -48,15 +48,14 @@ export const videoArray = [
         steamDate:'31.12.2022 10:00'
     },
     {
-        // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/EXXE1uAQ2yI" title="Поняття ліквідності" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
-        video:'Скоро',
-        // question:[
-        //     <p>- Показати 2 приклади EQL/EQH.</p>,
-        //     <p>- Показати 2 приклади зовнішньої та внутрішньої ліквідності.</p>,
-        // ], 
+        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/EXXE1uAQ2yI" title="Поняття ліквідності" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
+        question:[
+            <p>- Показати 2 приклади EQL/EQH.</p>,
+            <p>- Показати 2 приклади зовнішньої та внутрішньої ліквідності.</p>,
+        ], 
         title:'Поняття ліквідності', 
         number:4, 
-        finish:false, 
+        finish:true, 
         live:false
     },
     {
