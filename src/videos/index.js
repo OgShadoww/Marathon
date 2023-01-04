@@ -59,17 +59,16 @@ export const videoArray = [
         live:false
     },
     {
-        // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/70reI-SRi9s" title="Торгові інструменти Advanced" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
-        video:"Скоро", 
-        // question:[
-        //     <p>- Показати 2 приклади бичачого order block.</p>,
-        //     <p>- Показати 2 приклади ведмежого order block.</p>,
-        //     <p>- Відзначити 2 POI зони.</p>,
-        //     <p>- Відзначити 2 FTA зони.</p>,
-        // ], 
+        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/IPBQI7icIU8" title="Торгові інструменти Base" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        question:[
+            <p>- Показати 2 приклади бичачого order block.</p>,
+            <p>- Показати 2 приклади ведмежого order block.</p>,
+            <p>- Відзначити 2 POI зони.</p>,
+            <p>- Відзначити 2 FTA зони.</p>,
+        ], 
         title:'Торгові інстурменти 1',
         number:5, 
-        finish:false, 
+        finish:true, 
         live:false
     },
     {
