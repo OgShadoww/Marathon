@@ -80,7 +80,7 @@ export const videoArray = [
         ], 
         title:'Торгові інстурменти 2', 
         number:6, 
-        finish:false, 
+        finish:true, 
         live:false
     },
     {
