@@ -71,7 +71,7 @@ export const videoArray = [
         live:false
     },
     {
-        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/IPBQI7icIU8" title="Торгові інструменти Base" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/70reI-SRi9s" title="Торгові інструменти Advanced" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
          question:[
             <p>- Показати 2 приклади бичачого order block.</p>,
             <p>- Показати 2 приклади ведмежого order block.</p>,
