@@ -84,15 +84,14 @@ export const videoArray = [
         live:false
     },
     {
-        // video:<iframe width="697" height="392" src="https://www.youtube.com/embed/FTAcWaNPa3U" title="Боковий рух (Рендж)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
-        video:"Скоро", 
-         // question:[
-            //<p>- Показати 2 приклади range з девіаціями на висхідному тренді.</p>
-            //<p>- Показати 2 приклади range з девіаціями на низхідному тренді.</p>
-        // ], 
+        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/FTAcWaNPa3U" title="Боковий рух (Рендж)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+         question:[
+            <p>- Показати 2 приклади range з девіаціями на висхідному тренді.</p>,
+            <p>- Показати 2 приклади range з девіаціями на низхідному тренді.</p>,
+        ], 
         title:'Боковий рух', 
         number:7, 
-        finish:false, 
+        finish:true, 
         live:true,
         stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/lTEpFIi7KO0" title="Стрім - Боковий рух (Range)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
         streamDate:'08.01.2023 10:00'
