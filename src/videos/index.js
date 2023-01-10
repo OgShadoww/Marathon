@@ -94,7 +94,7 @@ export const videoArray = [
         finish:true, 
         live:true,
         stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/lTEpFIi7KO0" title="Стрім - Боковий рух (Range)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
-        steamDate:'10.01.2023 10:00'
+        steamDate:'10.01.2023 21:00'
     },
     {video:"Скоро", description:'', title:'Тейк Профіт - Стоп Лос', number:8, finish:false, live:false},
     {video:"Скоро", description:'', title:'Фази ринку', number:9, finish:false, live:false},
