@@ -96,8 +96,26 @@ export const videoArray = [
         stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/lTEpFIi7KO0" title="Стрім - Боковий рух (Range)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
         steamDate:'10.01.2023 21:00'
     },
-    {video:"Скоро", description:'', title:'Тейк Профіт - Стоп Лос', number:8, finish:false, live:false},
-    {video:"Скоро", description:'', title:'Фази ринку', number:9, finish:false, live:false},
+    {
+        video:<iframe width="697" height="392" src="https://www.youtube.com/embed/-yuDER8kwGI" title="Тейк-Профіт та Стоп-Лосс" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>, 
+        question: [
+            <p>1. Використати на графіку інструмент "Коротка позиція" (Шорт)</p>,
+            <p>2. Використати на графіку інструмент "Довга позиція" (Лонг)</p>
+        ],
+        title:'Тейк Профіт - Стоп Лос', 
+        number:8, 
+        finish:true, 
+        live:false
+    },
+    {
+        // video:<iframe width="640" height="360" src="https://www.youtube.com/embed/ESLOl4gjDLU" title="Фази ринку" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
+        video:"Скоро", 
+        description:'', 
+        title:'Фази ринку', 
+        number:9, 
+        finish:false, 
+        live:false
+    },
     {
         video:"Скоро", 
         description:'', 
