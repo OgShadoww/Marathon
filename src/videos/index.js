@@ -108,12 +108,11 @@ export const videoArray = [
         live:false
     },
     {
-        // video:<iframe width="640" height="360" src="https://www.youtube.com/embed/ESLOl4gjDLU" title="Фази ринку" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
-        video:"Скоро", 
+        video:<iframe width="640" height="360" src="https://www.youtube.com/embed/ESLOl4gjDLU" title="Фази ринку" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
         description:'', 
         title:'Фази ринку', 
         number:9, 
-        finish:false, 
+        finish:true, 
         live:false
     },
     {
