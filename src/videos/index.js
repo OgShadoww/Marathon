@@ -121,8 +121,6 @@ export const videoArray = [
         title:'Комплексна робота ', 
         number:10, 
         finish:false, 
-        live:true,
-        stream:<iframe width="697" height="392" src="https://www.youtube.com/embed/KHc8BjV5UXM" title="Стрім -  Комплексна робота" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
-        steamDate:'15.01.2023 10:00'
+        live:false,
     },
 ]
