@@ -116,7 +116,7 @@ export const videoArray = [
         live:false
     },
     {
-        video:<iframe width="640" height="360" src="https://www.youtube.com/embed/RlmiwzhvWJY" title="Комплексна робота по всіх пройдених темах" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>, 
+        video:<iframe width="640" height="360" src="https://www.youtube.com/embed/RlmiwzhvWJY" title="Комплексна робота по всіх пройдених темах" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>, 
         description:'', 
         title:'Комплексна робота ', 
         number:10, 
