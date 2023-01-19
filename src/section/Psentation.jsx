@@ -3,7 +3,7 @@ import PresentationItem from '../component/PresentationItem';
 
 const Psentation = () => {
     return (
-        <div className='mb-[50px] px-[50px] flex gap-[20px] flex-col items-center justify-center'>
+        <div className='mb-[150px] px-[50px] flex gap-[20px] flex-col items-center justify-center'>
             <div className='w-full px-[10px] py-[10px] relative flex flex-col items-center justify-center gap-[30px] lg:gap-[40px] md:gap-[35px] sm:gap-[30px]'>
                 <div className='background rounded-[3px]'>
 
@@ -25,8 +25,16 @@ const Psentation = () => {
                     Обрати тариф
                 </button>
             </a>
+            <div className='w-full flex flex-col gap-[20px] justify-center items-center mb-[100px]'>
+                <h1 className='text-[20px] lg:text-[28px] md:text-[24px] sm:text-[22px] text-[#FFBA33]'>
+                    Детальний розбір тарифів
+                </h1>
+                <div className='w-[100%] lg:w-[60%] md:w-[60%] sm:w-[100%] youtube'>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/Ckd_WpVnonQ" title="Тарифи курсу від ToTheMoon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
+            </div>
             <div className='w-full flex flex-col gap-[20px] justify-center items-center'>
-                <h1 className='text-[20px] lg:text-[28px] md:text-[24px] sm:text-[22px]'>
+                <h1 className='text-[20px] lg:text-[28px] md:text-[24px] sm:text-[22px] text-[#FFD56B]'>
                     Презентація нашого продукту та сайту    
                 </h1>
                 <div className='w-[100%] lg:w-[60%] md:w-[60%] sm:w-[100%] youtube'>
